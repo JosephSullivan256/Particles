@@ -8,7 +8,6 @@ import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL15;
 
 import com.josephsullivan256.gmail.math.linalg.Vec2;
-import com.josephsullivan256.gmail.math.linalg.Vec4;
 import com.josephsullivan256.gmail.particles.Particle;
 import com.josephsullivan256.gmail.particles.ParticleInteraction;
 

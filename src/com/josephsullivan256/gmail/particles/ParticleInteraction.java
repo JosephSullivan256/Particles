@@ -16,6 +16,8 @@ public class ParticleInteraction {
 		float mag = dist.magnitude();
 		dist = dist.scaledBy(1f/mag);
 		
+		//mag = Math.max(0.01f,mag);
+		
 		float force = -k*p1.getMass()*p2.getMass()/((float) Math.pow(mag, pow));
 		Vec2 fv = dist.scaledBy(force);
 		
